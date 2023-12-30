@@ -6,3 +6,9 @@ The bot is designed to automate the process of searching and saving images relat
 4. Saving Syntax: The image is saved with a specific syntax. The image's name corresponds to the name taken from the list, and the file extension is PNG. For example, if the searched name is 'water', the image will be saved as 'water.png'.
 
 This automation streamlines the process of searching and saving images related to a specific list of names, making the management of visual resources associated with specific terms more efficient.
+
+How to run from cmd:
+```python
+python main.py
+```
+
