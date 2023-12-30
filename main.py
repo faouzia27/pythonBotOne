@@ -6,8 +6,8 @@ from selenium.webdriver.common.by import By
 import time
 import requests
 
-LINK = 'https://it.123rf.com/free-images/?gad_source=1&gclid=EAIaIQobChMI3vDqkoyPgwMVhYVoCR3t_AEkEAAYASABEgLsF_D_BwE&gclsrc=aw.ds#googtrackad17'
-path = 'C:\\Users\\faouz\\Desktop\\output'
+LINK = 'https://it.123rf.com/free-images/?gad_source=1&gclid=EAIaIQobChMI3vDqkoyPgwMVhYVoCR3t_AEkEAAYASABEgLsF_D_BwE&gclsrc=aw.ds#googtrackad17' 
+path = 'C:\\Users\\faouz\\Desktop\\output' # Output folder in my pc
 chrome_driver = ChromeDriverManager().install()
 
 def ricercaimmagine(nome):
